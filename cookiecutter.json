@@ -1,0 +1,5 @@
+{
+    "project_name": "Python Application",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_description": "A Python application"
+  }
