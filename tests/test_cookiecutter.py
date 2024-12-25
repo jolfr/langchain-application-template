@@ -12,5 +12,8 @@ def test_project_structure(setup_and_teardown):
     python_version = f"{project_path}/.python-version"
     assert os.path.exists(python_version), ".python-version does not exist"
     
+    gitignore = f"{project_path}/.gitignore"
+    assert os.path.exists(gitignore), ".gitignore does not exist"
+    
     main = f"{project_path}/app/main.py"
     assert os.path.exists(main), "app/main.py does not exist"
