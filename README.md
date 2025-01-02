@@ -1,10 +1,11 @@
 # Python Application Template
 
-This is an opinionated template to get python applications started up easily with a defined structure and set of tools.
+This is an opinionated template to get langchain applications started up easily with a defined structure and set of tools.
 
 - Defined project structure
 - Package and environment management with uv
-- Testing with pytest
+- Service definition with FastAPI
+- Testing with DeepEval
 
 ## Getting Started
 
