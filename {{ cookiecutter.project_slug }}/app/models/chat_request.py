@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 from app.models.message import Message
 
-class RequestMessage(BaseModel):
+class ChatRequest(BaseModel):
     """Request from chat endpoint."""
     content: str
     

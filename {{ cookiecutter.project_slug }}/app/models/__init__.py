@@ -1,5 +1,5 @@
 from .message import Message
 from .messages import Messages
-from .request_message import RequestMessage
+from .chat_request import ChatRequest
 
-__all__ = ["Message", "Messages", "RequestMessage"]
+__all__ = ["Message", "Messages", "ChatRequest"]

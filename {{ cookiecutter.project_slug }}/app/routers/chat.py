@@ -1,11 +1,11 @@
 from fastapi import APIRouter
 
-from app.models import RequestMessage
+from app.models import ChatRequest
 
 router = APIRouter()
 
 @router.post("/")
-async def chat(message: RequestMessage):
+async def chat(request: ChatRequest):
     """Chat endpoint to send a message to the LLM."""
-    message = message.to_message()
+    message = request.to_message()
     return {"message": message}
