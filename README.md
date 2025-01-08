@@ -1,8 +1,8 @@
-# Python Application Template
+# LangChain Application Template
 
-This is an opinionated template to get langchain applications started up easily with a defined structure and set of tools.
+This is an opinionated template to get LangChain applications started up easily with a defined structure and set of tools.
 
-- Defined project structure
+- Predefined project structure
 - Package and environment management with uv
 - Service definition with FastAPI
 - Testing with DeepEval
