@@ -15,7 +15,7 @@ This is an opinionated template to get langchain applications started up easily 
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) >= 0.5.11
 
 ### Usage
-1. In a terminal window from the parent folder `cookiecutter python-application-template`
+1. In a terminal window from the parent folder `cookiecutter langchain-application-template`
 2. Follow on-screen prompts to configure the project
 3. `cd <project-name>` into the project
 4. `source .venv/bin/activate` to activate the virtual environment
