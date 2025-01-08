@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 from app.models import ChatRequest
-from app.chain import invoke_chain
+from app.internal import invoke_chain
 router = APIRouter()
 
 @router.post("/")

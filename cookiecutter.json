@@ -1,5 +1,6 @@
 {
   "project_name": "LangChain Application",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-  "project_description": "A LangChain LLM application"
+  "project_description": "A LangChain LLM application",
+  "openai_api_key": ""
 }

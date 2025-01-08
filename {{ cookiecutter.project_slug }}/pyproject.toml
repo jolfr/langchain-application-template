@@ -8,6 +8,7 @@ dependencies = [
     "fastapi[standard]>=0.115.6",
     "langchain-openai>=0.2.14",
     "langchain>=0.3.13",
+    "python-dotenv>=1.0.1",
 ]
 
 [tool.uv]
