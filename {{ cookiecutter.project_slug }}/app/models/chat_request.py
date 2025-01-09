@@ -8,3 +8,10 @@ class ChatRequest(BaseModel):
     
     def to_message(self) -> Message:
         return Message(content=self.message, role="user")
+
+    class Config:
+        json_schema_extra = {
+            "example": {
+                "message": "Hello AI!",
+            }
+        }
