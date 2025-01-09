@@ -4,6 +4,7 @@ import subprocess
 def initialize_version_control() -> bool:
     print("Initializing version control...", end="")
     try:
+        subprocess.run(["mv", ".env.template", ".env"], capture_output=True, check=True)
         subprocess.run(["git", "init"], capture_output=True, check=True)
         subprocess.run(["git", "add", "."], capture_output=True, check=True)
         subprocess.run(["git", "commit", "-m", "chore: initialized project from langchain-application-template"], capture_output=True, check=True)
