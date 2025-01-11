@@ -20,7 +20,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: git-actions/set-user@v1
+    - name: Set Git Author
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "Github Actions Bot"
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
