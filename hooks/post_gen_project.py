@@ -11,7 +11,8 @@ def initialize_version_control() -> bool:
         print("done.")
         return True
     except Exception as e:
-        print("\n" + e)
+        print("")
+        print(e)
         return False
     
     
@@ -22,7 +23,8 @@ def initialize_environment() -> bool:
         print("done.")
         return True
     except Exception as e:
-        print("\n" + e)
+        print("")
+        print(e)
         return False
 
 if __name__ == "__main__":
