@@ -10,7 +10,8 @@ def initialize_version_control() -> bool:
         subprocess.run(["git", "commit", "-m", "chore: initialized project from langchain-application-template"], capture_output=True, check=True)
         print("done.")
         return True
-    except Exception:
+    except Exception as e:
+        print("\n" + e)
         return False
     
     
@@ -20,7 +21,8 @@ def initialize_environment() -> bool:
         subprocess.run(["uv", "sync"], capture_output=True, check=True)
         print("done.")
         return True
-    except Exception:
+    except Exception as e:
+        print("\n" + e)
         return False
 
 if __name__ == "__main__":
