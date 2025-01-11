@@ -6,7 +6,7 @@ import shutil
 import string
 
 @pytest.fixture
-def setup_and_teardown():
+def generate_project():
     # Before each test (setup)
     print("\n[Setup] Generate a new project")
     project_slug = ''.join(random.choices(string.ascii_letters, k=10))
