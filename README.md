@@ -1,14 +1,6 @@
 # LangChain Application Template
 
-Get a `/chat` API up and running in under 5 minutes with LangChain and FastAPI.
-
-## Features
-
-- Service definition with FastAPI
-- Preconfigured `/chat` endpoint and basic OpenAI chain
-- Testing with pytest
-- Production builds with Docker
-- Environment management with uv
+Get a `/chat` API up and running in under 5 minutes with LangChain, FastAPI, and OpenAI.
 
 ## Getting Started
 
@@ -26,3 +18,12 @@ Get a `/chat` API up and running in under 5 minutes with LangChain and FastAPI.
 5. Fire up a development server with `uv run bash scripts/dev.sh`
 6. Navigate to `localhost:8000/docs` for the Swagger documentation.
 7. Test the `/chat` endpoint by clicking the "Try it out" button and entering a message.
+
+## Features
+
+- Service definition with FastAPI
+- Preconfigured `/chat` endpoint 
+- Basic LangChain chain using OpenAI model provider
+- Testing with pytest
+- Production builds with Docker
+- Environment management with uv
